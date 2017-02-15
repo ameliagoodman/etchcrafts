@@ -1,0 +1,71 @@
+/*
+ * Tech it Out 2016 theme
+ * Designed by Amelia Goodman.
+ * Made with luv and Bootstrap
+ * Theme colors:
+ *      light #9F8FB8;
+ *      dark  #2A0E39;
+ */
+
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+	background-color: #fff;
+	color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.black {
+    background-color: #000;
+    color: white;
+}
+p {
+    font-size: 1.15em;
+}
+
+
+#header {
+    background: url(../img/overlay.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 80vh;
+    margin-bottom: 50px;
+}
+
+#logo {
+    margin-top: 30vh;
+    width: 200px;
+}
+#center_me{
+    padding-left: 40%;
+
+}
+#about{
+    padding-bottom: 100px;
+}
+
+#etsy_button {
+    padding-bottom: 50px;
+}
+
+hr {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+
+/* FOOTER */
+footer.page-footer {
+    padding: 10px;
+    background-color:#ce93d8;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
