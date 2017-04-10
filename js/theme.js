@@ -2,6 +2,17 @@ $(document).ready(function() {
   // initialize carousel
   $('.carousel').carousel({fullWidth: true});
 
+  // initialize slick
+  $('.cases').slick({
+    dots: true,
+    infinite: true,
+    speed: 3000,
+    slidesToShow: 1,
+    adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    variableWidth: true
+  });
 
   // smooth scroll
   $('a[href*="#"]:not([href="#"])').click(function() {

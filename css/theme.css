@@ -49,12 +49,6 @@ p {
     width: 100%;
 }
 
-/*@media only screen and (max-device-width : 750px) {
-    .image {
-        width: 100px;
-        height: 100px;
-    }
-*/
 #etsy_button {
     padding-bottom: 50px;
 }
